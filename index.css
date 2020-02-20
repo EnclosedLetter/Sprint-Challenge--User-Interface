@@ -191,16 +191,20 @@ nav a{
 
 .row1{
     display: flex;
-    justify-content: space-around;
-    /* margin: 0 0 0 25px; */
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 25px 0;
 }
 
 .stratSec, .howSec{
     justify-content: space-around;
+    margin: 0 auto;
+    width: 45%;
 }
 
 hr{
-    border-top: 2px dashed black;
+    /* border: none; */
+    border: 2px dashed black;
     margin: 5% 0;
 }
 
@@ -212,7 +216,7 @@ hr{
 
 .stratSec{
 
-    margin: auto 25px auto 25px;
+    margin: 0 auto;
     /* text-align: left; */
 }
 
